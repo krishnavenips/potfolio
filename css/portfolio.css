@@ -1,0 +1,164 @@
+*{box-sizing: border-box;}
+body{
+    /* background-color: rgb(230, 199, 199); */
+    /* background-color: #fff; */
+    font-family: 'Merienda', cursive;
+    background-image: url("../images/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0 0 0 0;
+}
+
+header{
+    background-color: rgb(47, 102, 21);
+    margin: 0 0 0 0;
+    padding: 1% 20% 1% 10% ;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    font-family: 'Merienda', cursive;
+    color: #fff;
+}
+.header_component2{
+    font-size: 20px;
+}
+
+.header_component2 :hover{
+    color:  rgb(0, 247, 255);
+    cursor: pointer;
+}
+
+/* ---------------------------body------------------------------------ */
+
+
+.home{
+    display: flex;
+    padding: 2% 5%  2% 5%;
+}
+
+.aboutme{
+    padding: 0 0 0 4%; 
+    width: 40%;   
+}
+
+.circles{
+   display: flex;
+   justify-content: space-around;
+   margin: 0px;
+}
+
+.myphoto{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(197, 14, 14);
+    /* text-align: center; */
+    margin: 4% 2% 2% 15%;    
+}
+
+.circle_content{
+    height: 120px;
+    width: 120px;
+    border-radius:50%;
+    background-color: rgba(0, 162, 255, 0.671);
+    cursor: pointer;
+}
+
+.circle_content:hover{
+    background-color: rgba(255, 153, 0, 0.678);
+    cursor: pointer;   
+}
+
+.home_contents{
+    display:none;
+   /* margin-top: 8%; */
+   /* color: blue; */
+   color: rgb(47, 102, 21);
+   font-weight: 700;
+}
+/* ----------------------------------RESUME--------------------------- */
+article{
+    padding: 3% 20% 3% 20%;
+}
+.headings{
+    font-size: 50px; 
+    color: rgba(189, 56, 56, 0.808);
+    font-weight: 700;
+}
+.circle_resume , .circle_projects{
+    height: 180px;
+    width: 180px;
+    border-radius:90px;
+    background-color:rgba(232, 53, 86, 1);
+    cursor: pointer;
+    /* margin: 3% 0 3% 0; */
+    position: relative;
+    left: 40%;
+}
+.circle_resume :hover, .circle_projects:hover{
+    color:rgba(40, 40, 230, 0.979);
+}
+
+
+.resume_contents, .projects_contents {
+    display: flex;    
+}
+
+.resume_text, .project_text{
+    display: none;
+    position: relative;
+    left: 100px;
+    width: 60%;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgba(3, 5, 119, 0.719);
+}
+#resizable{
+    height: 300px;
+}
+/* ---------------------------------------form------------------ */
+input, textarea{
+    background: rgb(243, 195, 132);
+    width: 60%;
+    border: 0;
+    padding: 5px 10px 5px 10px;
+    margin-top: 4px;
+
+}
+
+button{
+    border: 0;
+    background: rgb(243, 195, 132);
+    padding: 5px 5px 5px 5px;
+}
+
+
+
+
+
+
+/* -------------------------------footer--------------------- */
+footer{
+    background-color:  rgb(47, 102, 21);
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 10% 1% 10%;
+    font-family: 'Merienda', cursive;
+    color: #fff;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+footer h6{
+    padding-left: 10px;
+}
+
+footer div{
+    line-height: 2px
+}
+.footer_component1 :hover{
+    color: rgb(0, 247, 255);
+    cursor: pointer;
+}

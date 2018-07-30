@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="myProfile" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+    <script src="script/portfolio.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    
+
+</head>
+<body>
+    <!-- -------------------------------------header------------------------ -->
+    <header>
+    <div class="header_component1">
+       <h1>KRISHNAVENI P S</h1>
+       <h3>Software Engineer</h3>
+    </div>
+
+    <div class="header_component2" id="home_tab" style="color: rgb(0, 255, 255)">
+        <h4>Home</h4>
+    </div>
+    <div class="header_component2" id="resume_tab">
+        <h4>Resume</h4>
+    </div>
+    <div class="header_component2" id="projects_tab">
+        <h4>Projects</h4>
+    </div>
+    <div class="header_component2" id="contact_tab">
+        <h4>Contact</h4>
+    </div>
+</header>
+
+<!-- --------------------------------------------body--------------------------------- -->
+<!-- -------------------------------------------home--------------------------------------- -->
+<article class="home">
+
+<div class="myphoto">
+    <p style="padding-left: 100px; padding-top: 100px">my photo</p>
+</div>
+<div class="aboutme">
+    <div style="line-height: 20px; margin-top: 20px"> 
+        <b style="font-size: 45px; color: rgba(50, 50, 177, 0.767);">Hello,</b>
+        <h3 style="font-size: 30px; color:rgba(189, 56, 56, 0.808);">a bit about me.</h3>
+    </div>
+
+        <div class="circles">
+            <div class="circle_content" id="circle_aboutme">
+                <p style="text-align: center; padding-top: 30px;">About me</p>
+            </div>
+            <div class="circle_content" id="circle_family">
+                <p style="text-align: center; padding-top: 30px;">My family</p>
+            </div>
+            <div class="circle_content" id="circle_hobbies">
+                <p style="text-align: center; padding-top: 30px;">Hobbies</p>
+            </div>
+        </div>
+        
+        <div class="home_contents" id="aboutme_text" style="margin-top: 8%; display: none;" >
+            Hello, I am Krishnaveni P S and I am 22 years old. 
+            I  am an Applied Electronics and Instrumentation Engineer. 
+        </div>
+        <div class="home_contents" id="family" style="margin-top: 8%; display: none;" >
+            I have a small family of five members.
+             My parents are working and siblings are doing their higher     secondary education.
+        </div>
+        <div class="home_contents" id="hobbies" style="margin-top: 8%; display: none;" >
+            My hobbies mainly includes reading books. I am a great fan of Harrypotter series.
+            And I love solving sudoku. I enjoy listening music.
+        </div>
+        
+   
+</div>
+
+</article>
+
+<!-- ----------------------------------------resume-------------------------------- -->
+
+<article class="resume" style="display: none;">
+    <p class="headings">
+        RESUME
+    </p>
+    <hr>
+    <div class="resume_contents">
+    <div class="circle_resume" id="circle_graduation">
+        <p style="text-align: center; padding-top: 60px;">Graduation</p>
+    </div>
+        <p class="resume_text" id="graduation">
+            Pursued btech graduation from Government Engineering College, Kozhikode
+            in Applied Electronics And Instrumentation during 2014-2018.
+        </p>
+    </div>
+
+    <hr>
+    <div class="resume_contents">
+    <div class="circle_resume" id="circle_hse">
+        <p style="text-align: center; padding-top: 60px;">HSE</p>
+    </div>
+    <p class="resume_text" id="hse">
+        Pursued Higher secondary education from Government Higher Secondary School,
+        Villadom, Thrissur in Science.
+    </p>
+
+    </div>
+
+    <hr>
+    <div class="resume_contents">
+    <div class="circle_resume" id="circle_hs">
+        <p style="text-align: center; padding-top: 60px;">HS</p>
+    </div>
+    <p class="resume_text" id="hs">
+        Pursued Higher School education from Holifamily Convent Girls High School,
+        Chembukkavu, Thrissur.
+    </p>
+    </div>
+
+    <hr>
+
+    <div id="accordion">
+            <h3>SKILLS</h3>
+            
+             
+            <div id="resizable" class="ui-widget-content">
+                <ul>
+                    <li>Basic Knowledge in C Programming</li>
+                    <li>Basic Knowledge of LabVIEW</li>
+                    <li>Sufficiently familiarized with the Assembly Language Programming of 8085,8086,8051</li>
+                    <li>Pursuing as the active member of IEEE</li>
+                    <li>Pursuing as the active member of NSS</li>
+                </ul>
+            </div>
+
+            <h3>ACHIEVEMENTS</h3>
+                <div id="resizable" class="ui-widget-content">
+                <ul>
+                    <li>First Prize in ‘CHAKRAVYUHA’ in VYVIDH 17</li>
+                    <li>First Prize in ‘CODSIGN’ in DYUTHI 17</li>
+                    <li>Second Prize in ‘REVETRONICS’ in DYUTHI 17</li>
+                    <li>Paper presentation on ‘ENERGY CONSERVATION AND IT’S IMPORTANCE , in
+                        ENDURANCE 16</li>
+                    <li>Successfully completed Internship in Data Acquisition System, SCADA,/HMI &amp; PLC
+                       from NEILIT</li>
+                </ul>
+            </div>
+          </div>
+
+</article>
+
+<!-- ----------------------------------------projects------------------------------ -->
+
+
+
+<article class="projects" style="display: none;">
+        <p class="headings">
+            PROJECTS
+        </p>
+        <hr>
+        <div class="projects_contents">
+        <div class="circle_projects" id="circle_mainproject">
+            <p style="text-align: center; padding-top: 60px;">Main Project</p>
+        </div>
+            <p class="project_text" id="Main_Project">
+                <b>CLEANER ROBOT:</b> My Main Project, Cleaner Robot is a six wheeled structure created
+                 on the basis of the Rockerbogie mechanism put forward by NASA. Automatic obstacle detection
+                is done in the robot with ultrasonic sensor(HCSR04) and and the microcontroller- Arduino-Uno. 
+                We have used six wheels and the 4-channel relay module is used th drive the motor in the pattern 
+                of motion required as per the program.
+            </p>
+        </div>
+        <hr>
+        <div class="projects_contents">
+        <div class="circle_projects" id="circle_miniproject">
+            <p style="text-align: center; padding-top: 60px;">Mini Project</p>
+        </div>
+        <p class="project_text" id="Mini_Project">
+            <b>DRIENESS INDICATION SYSTEM:</b> My Mini Project, Automatic Drieness indication System
+             works with the microcontroller Arduino-Uno and sensor used is Load cell module. When The object 
+             dries, the water content will go down, similar is the overall weight of the object. This loss of 
+             water is identified using the sensor and the microcontroller with the help of the amplifier module(HX711) and 
+             indication is produced. 
+        </p>
+        </div>
+        <hr>
+  
+    </article>
+
+    <!-- -------------------------------contactus--------------------------- -->
+
+    <article class="contact" style="display: none;">
+        <div class="headings">
+             CONTACT
+        </div>
+        <p style="font-size: 20px; color: rgba(232, 53, 86, 1);">Looking forward to answer your email </p>
+
+        <form>
+            <input type="text" minlength="3" maxlength="15"  placeholder="Name*"><br>
+            <input type="email" minlength="3" placeholder="Email*"><br>
+            <input type="text" minlength="3"  placeholder="Subject*"><br>
+            <textarea type="text" minlength="3" maxlength="30" placeholder="Message" rows="10"></textarea><br>
+            <button> SEND</button>
+        </form>
+
+    </article>
+    
+
+
+
+<!-- -----------------------------------footer----------------------------------------- -->
+<footer>
+    <div class="footer_component1" style="display: flex; align-items: center;">
+        <div><img src="images/phone11.png"></div>
+        <div>
+            <h6>PHONE</h6>
+            <h6>89329420989</h6> 
+        </div>    
+    </div>
+    <div class="footer_component1" style="display: flex; align-items: center;">
+        <div><img src="images/msg1.png"></div>
+        <div>
+            <h6>CONTACT</h6>
+            <h6>info@mysite.com</h6>
+        </div>    
+    </div>
+    <div class="footer_component1" style="display: flex; align-items: center;">
+        <div><img src="images/plus1.png"></div>
+        <div>
+            <h6>FOLLOW ME</h6>
+            <!-- <div style="padding-top: 5px;">
+                <img src="images/googol.png" style="height: 20px; width: 20px;">
+                <img src="images/facebook.png" style="height: 20px; width: 20px;">
+            </div> -->
+        </div>    
+    </div>
+</footer>
+    
+</body>
+<script src="script/portfolio.js"></script>
+
+</html>
